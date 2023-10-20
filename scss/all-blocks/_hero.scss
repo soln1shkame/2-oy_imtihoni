@@ -11,7 +11,7 @@
 
 .hero__heading {
     width: 100%;
-    color: #36536B;
+    color: var(--color-SanJuanBlue);
     font-family: "DM Serif Display";
     font-size: 72px;
     font-weight: 400;
@@ -31,14 +31,14 @@
 }
 
 .hero__text {
-    color: #6C8294;
+    color: var(--color-LightSanJuanBlue)
     font-family: "Public Sans";
     font-size: 15px;
     font-weight: 400;
 }
 
 .hero__span {
-    color: #6C8294;
+    color: var(--color-LightSanJuanBlue)
     font-family: "Public Sans";
     font-size: 15px;
     font-weight: 700;
@@ -71,7 +71,7 @@
     }
 
     .hero__heading {
-        color: #36536B;
+        color: var(--color-SanJuanBlue);
         text-align: center;
         font-family: "DM Serif Display";
         font-size: 48px;
@@ -105,7 +105,7 @@
         width: 327px;
         height: 48px;
         border-radius: 24px;
-        background: #BA4270;
+        background-color: var( --color-Darkpink);
         display: inline-block;
         margin-left: -150px;
     }
@@ -132,7 +132,7 @@
         width: 307px;
         height: 48px;
         border-radius: 24px;
-        background: #BA4270;
+        background-color: var( --color-Darkpink);
         display: inline-block;
         margin-left: -160px;
     }
